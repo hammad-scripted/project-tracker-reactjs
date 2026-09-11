@@ -1,11 +1,9 @@
-import React from 'react';
+import Dashboard from "./components/Dashboard";
 
-const App: React.FC = () => {
+const App = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-4xl font-bold text-blue-500">
-        Welcome to Project Tracker
-      </h1>
+    <div>
+      <Dashboard />
     </div>
   );
 };
